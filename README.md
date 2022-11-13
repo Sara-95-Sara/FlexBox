@@ -7,3 +7,7 @@
 4. .child{$}*4
 
 5. ete uzum enq stugel elementner flex en te voch, apa ekran@ poqracnum enq, ete elementner@ sexmvecin uremn Flex e.
+
+6. Flex-wrap hrmana@, erb elementner@ tex chen anum ekrani vra, avtomat ancnen hajord tox.
+
+7. erb haytnvum e scrol, nshanakum e ayd kayq@ responsiv che.

@@ -7,15 +7,26 @@
 /* 
   1. flex => .parent
   2. display: flex;
-  3. flex-direction:  row; (defoult row e, aranvc grelu el horizonakan e sharelu)
+  3. flex-direction:  row; (default)
     
   x = row  horizonakan
   y = column  uxahayac
+
+  flex-wrap: wrap, no-wrap(default), wrap-reverse;
+  flex-flow: (flex-direction + flex-wrap)
+
+  wrap= permito que pasa otro linea
+  nowrap- no permito
+  wrap-reverse - permito, pero al reves
 */
 
 .parent{
     display: flex;
+    flex-flow: row wrap;
+    /*
     flex-direction: row;
+    flex-wrap: wrap;
+    */
     /*flex-direction: row-reverse;*/
     margin: 80px auto;
     max-width: 800px;
